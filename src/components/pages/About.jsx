@@ -21,7 +21,7 @@ export const About = () => {
                 <img
                   src="https://xfrancool.github.io/imgit/skill.jpg"
                   alt=""
-                  id="skills"
+                  id=""
                 />
                 <a
                   download
@@ -29,8 +29,7 @@ export const About = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <br />
-                  <button>Descargar CV</button>
+                  <button>Download CV</button>
                 </a>
                 {/*  <button className="primaryBtn">Download CV</button> */}
               </div>

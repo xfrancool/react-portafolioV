@@ -99,7 +99,7 @@ export const services = [
     id: 6,
     icon: <BarChart />,
     title: "Awesome",
-    desc: "Iconos de librerias",
+    desc: "Iconos ",
   },
 ];
 export const project = [
