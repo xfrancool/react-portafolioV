@@ -16,13 +16,15 @@ export const About = () => {
                 <Heading title="Acerca de mi" />
                 <p>{val.desc}</p>
                 <p>{val.desc1}</p>
-                <Heading title="Skill" />
+                <Heading title="Tools" />
 
                 <img
                   src="https://xfrancool.github.io/imgit/skill.jpg"
                   alt=""
-                  id=""
+                  id="tools"
+                  title="Skill"
                 />
+                <br />
                 <a
                   download
                   href="./pdf/cv.pdf"

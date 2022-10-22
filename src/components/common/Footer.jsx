@@ -18,7 +18,7 @@ const Footer = () => {
             href="https://portafolio-jobs.netlify.app/"
             target="_blank"
             rel="noreferrer"
-            id
+            id="link"
           >
             Franeli
           </a>

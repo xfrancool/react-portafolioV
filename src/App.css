@@ -50,8 +50,8 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
-#skills {
-  border-radius: 10px;
+#tools {
+  border-radius: 20px;
   border: 4px ridge white;
 }
 button {
