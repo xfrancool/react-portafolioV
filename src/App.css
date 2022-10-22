@@ -7,7 +7,7 @@
 :root {
   --primaryBackground: #212222;
   --secondaryBackground: #2f3030;
-  --primaryColor: #e0a80d;
+  --primaryColor: #4051eb;
   --greyDark: #7d8792;
   --headingColor: #2d2e2e;
   --white: #fff;
@@ -18,6 +18,7 @@ body {
   background-color: var(--headingColor);
   color: var(--white);
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 a {
   color: var(--greyDark);
@@ -49,6 +50,10 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+#skills {
+  border-radius: 10px;
+  border: 4px ridge white;
+}
 button {
   border: none;
   outline: none;
@@ -67,6 +72,9 @@ button {
 .primaryBtn {
   background: none;
   border: 2px solid var(--primaryColor);
+}
+#mani {
+  width: 280px;
 }
 /*---------header-------------*/
 header {
@@ -88,6 +96,14 @@ header a {
   display: none;
 }
 @media screen and (max-width: 768px) {
+  html,
+  body {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+  }
   header .nav {
     display: none;
   }
@@ -129,9 +145,10 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../public/images/home-bg.png");
+  background-image: url("../public/images/home-bg1.jpg");
   background-size: cover;
   background-attachment: fixed;
+  opacity: 0.5;
   z-index: -1;
   width: 100%;
   height: 90vh;
@@ -142,7 +159,7 @@ section {
   text-align: center;
 }
 .hero h1 {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 600;
   color: var(--primaryColor);
 }
@@ -153,7 +170,9 @@ section {
   color: var(--primaryColor);
   font-weight: 600;
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  text-align: center;
 }
 
 /*---------about-------------*/
@@ -213,7 +232,7 @@ section {
 /*---------portfolio-------------*/
 
 article {
-  margin-top: 50px;
+  margin-top: 125px;
   margin-bottom: 80px;
 }
 article img {
@@ -259,6 +278,7 @@ article .box:hover .overlay {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin: 40px 0;
 }
 .catButton button {
@@ -355,6 +375,10 @@ footer i {
   margin: 5px;
   color: var(--primaryColor);
 }
+
+#link {
+  color: rgba(0, 255, 255, 0.781);
+}
 /*---------footer-------------*/
 @media screen and (max-width: 768px) {
   .hero {
@@ -365,11 +389,11 @@ footer i {
   }
 
   .hero::after {
-    background-image: url("../public/images/home-bg.png");
+    background-image: url("../public/images/home-bg1.jpg");
     background-size: cover;
     object-fit: cover;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
   }
   section {
     height: auto;
@@ -385,10 +409,20 @@ footer i {
   }
   .grid4,
   .grid3 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   article {
     margin: 0;
-    padding-bottom: 50px;
+
+    margin-top: 50px;
+  }
+  .catButton {
+    margin-top: 0px;
+  }
+  .blog {
+    margin-top: 150px;
+  }
+  .about {
+    margin-top: 10px;
   }
 }

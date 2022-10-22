@@ -1,5 +1,5 @@
-import React from "react"
-import { social } from "../data/dummydata"
+import React from "react";
+import { social } from "../data/dummydata";
 
 const Footer = () => {
   return (
@@ -7,13 +7,25 @@ const Footer = () => {
       <footer>
         {social.map((item) => (
           <>
-            <i data-aos='zoom-in'>{item.icon}</i>
+            <a href={item.src} target="_blank" rel="noreferrer">
+              <i data-aos="zoom-in">{item.icon}</i>
+            </a>
           </>
         ))}
-        <p data-aos='zoom-in'>All Right Resceved 2018</p>
+        <p data-aos="zoom-in">
+          &copy; Todos los derechos reservados |{" "}
+          <a
+            href="https://portafolio-jobs.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            id="link"
+          >
+            Franeli
+          </a>
+        </p>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
