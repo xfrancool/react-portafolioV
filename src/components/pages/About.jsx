@@ -31,7 +31,7 @@ export const About = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button>Download CV</button>
+                  <button>Descargar CV</button>
                 </a>
                 {/*  <button className="primaryBtn">Download CV</button> */}
               </div>

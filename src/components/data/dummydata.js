@@ -51,9 +51,10 @@ export const navlink = [
 export const home = [
   {
     text: "Hola soy Fran",
-    name: "Front-end Developer",
-    post: "SEO",
-    design: "Responsive Desingn",
+    text1: "Front-end Developer",
+    text2: "SEO",
+    text3: "Responsive Design",
+    text4: "Maquetación",
     desc: "Diariamente busco aprender nuevas herramientas tecnológicas o afianzar las que ya domino incluyendo nuevos lenguajes de programación. ",
   },
 ];

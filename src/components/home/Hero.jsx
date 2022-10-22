@@ -14,7 +14,12 @@ export const Hero = () => {
             <h1>
               <Typewriter
                 options={{
-                  strings: [`${val.name}`, `${val.post}`, `${val.design}`],
+                  strings: [
+                    `${val.text1}`,
+                    `${val.text2}`,
+                    `${val.text3}`,
+                    `${val.text4}`,
+                  ],
                   autoStart: true,
                   loop: true,
                 }}
