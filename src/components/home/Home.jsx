@@ -10,7 +10,7 @@ import { Hero } from "./Hero";
 
 export const Home = () => {
   return (
-    <>
+    <div>
       <Hero />
       <About />
       <Services />
@@ -19,6 +19,6 @@ export const Home = () => {
       {/* <Testimonials /> */}
       {/* <Blog /> */}
       <Contact />
-    </>
+    </div>
   );
 };

@@ -33,7 +33,7 @@ export const navlink = [
   },
   {
     url: "/portfolio",
-    text: "Portfolio",
+    text: "Portafolio",
   },
   /* {
     url: "/testimonials",
@@ -196,11 +196,11 @@ export const portfolio = [
   },
   {
     id: 9,
-    cover: "https://xfrancool.github.io/imgit/qr.jpg",
+    cover: "https://xfrancool.github.io/imgit/qr-react.jpg",
     name: "Generar",
     category: "Otros",
     title: "QR",
-    url: "https://generator-qr.netlify.app/",
+    url: "https://qr-react.netlify.app/",
   },
 ];
 export const testimonials = [
